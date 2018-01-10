@@ -14,6 +14,7 @@
 		EE68B2E02005CB6D009DBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE68B2DE2005CB6D009DBC92 /* LaunchScreen.storyboard */; };
 		EE68B2EB2005CB6D009DBC92 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE68B2EA2005CB6D009DBC92 /* RoshamboTests.swift */; };
 		EE68B2F62005CB6D009DBC92 /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE68B2F52005CB6D009DBC92 /* RoshamboUITests.swift */; };
+		EE68B3042005CBC9009DBC92 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE68B3032005CBC9009DBC92 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE68B2F12005CB6D009DBC92 /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE68B2F52005CB6D009DBC92 /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		EE68B2F72005CB6D009DBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE68B3032005CBC9009DBC92 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EE68B2D52005CB6D009DBC92 /* AppDelegate.swift */,
 				EE68B2D72005CB6D009DBC92 /* ViewController.swift */,
+				EE68B3032005CBC9009DBC92 /* ResultViewController.swift */,
 				EE68B2D92005CB6D009DBC92 /* Main.storyboard */,
 				EE68B2DC2005CB6D009DBC92 /* Assets.xcassets */,
 				EE68B2DE2005CB6D009DBC92 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				EE68B2D82005CB6D009DBC92 /* ViewController.swift in Sources */,
 				EE68B2D62005CB6D009DBC92 /* AppDelegate.swift in Sources */,
+				EE68B3042005CBC9009DBC92 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
