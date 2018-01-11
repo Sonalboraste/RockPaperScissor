@@ -23,9 +23,23 @@ class ResultViewController: UIViewController {
     {
         super.viewDidLoad()
         
-        labelResult.text = labelString
+        if let labelString = labelString
+        {
+            labelResult.text = labelString
+        }
+        else
+        {
+            print("No value for label")
+        }
         
-        imageResult.image = UIImage(named: imageName)
+        if let imageName = imageName
+        {
+            imageResult.image = UIImage(named: imageName)
+        }
+        else
+        {
+            print("No value for image")
+        }
 
         // Do any additional setup after loading the view.
     }

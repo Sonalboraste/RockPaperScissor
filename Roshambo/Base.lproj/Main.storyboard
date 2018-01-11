@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Scissor" image="scissors"/>
                                 <connections>
-                                    <action selector="playScissor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xQV-rT-CX2"/>
+                                    <segue destination="0Pg-lW-g1v" kind="show" identifier="showResultScissor" id="rJ2-zM-bld"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-U4-thA">
@@ -59,6 +59,7 @@
                         <outlet property="buttonPaper" destination="rsm-bs-wrF" id="Saa-ON-6Ei"/>
                         <outlet property="buttonRock" destination="l7y-Kz-ser" id="pZa-h6-dkg"/>
                         <outlet property="buttonScissor" destination="5rS-66-OjO" id="mKt-ox-YIL"/>
+                        <segue destination="0Pg-lW-g1v" kind="show" identifier="showResultPaper" id="hDt-jK-jur"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -106,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tu0-g3-8Up" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="724" y="37.331334332833585"/>
+            <point key="canvasLocation" x="978" y="38"/>
         </scene>
     </scenes>
     <resources>
@@ -114,4 +115,7 @@
         <image name="rock" width="75" height="65"/>
         <image name="scissors" width="75" height="65"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hDt-jK-jur"/>
+    </inferredMetricsTieBreakers>
 </document>
